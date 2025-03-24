@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.banner {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 80%;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Fix overlapping issue with flexbox */
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.input-group div {
+    width: 45%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+h3 {
+    margin-top: 20px;
+    color: yellow;
+}
