@@ -89,7 +89,7 @@ Request:
 
 
 
-## Screenshots
+## Flask Web Application
 
 ![Home Price Prediction Application](https://raw.githubusercontent.com/AkshitMunjal/ML_Real_Estate_Price_Prediction/main/Home_Price_Prediction_Application.png)
 
